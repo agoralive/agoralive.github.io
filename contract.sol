@@ -8,7 +8,7 @@ contract MATICMIXER {
 	using SafeMath for uint256;
     using SafeMath for uint8;
 
-	uint256 constant public INVEST_MIN_AMOUNT = 10 ether; // 10 MATIC
+	uint256 constant public INVEST_MIN_AMOUNT = 1 ether; // 10 MATIC
 	uint256[] public REFERRAL_PERCENTS = [50, 30, 20];
 	uint256 constant public PERCENT_STEP = 8;
 	uint256 constant public PERCENTS_DIVIDER= 1000;
