@@ -75,7 +75,7 @@
 		
 			//Updating Total Staked
 			const totalStaked = await window.contract.methods.totalStaked().call();
-			document.querySelector('.totalStaked').innerHTML = convertWei(totalStaked) /* +" "+ "<span class=\"unit\"> Karina MATIC</span>"*/;
+			document.querySelector('.totalStaked').innerHTML = convertWei(totalStaked) +" "+ "<span class=\"unit\"> SGB</span>";
 			
 			//Updating Contract Balance
 			const contractBalance = await window.contract.methods.getContractBalance().call();
