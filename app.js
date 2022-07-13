@@ -232,7 +232,7 @@
 		async function investPlan0(amount){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.invest(ref, 0).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.invest(ref, 0).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '285000'});
 		}
 		
 		//Plan 2
