@@ -1,5 +1,5 @@
 	
-		const CHAIN = 19 ; //Songbird
+		const CHAIN = 19 ; //Songbird Network
 		
 		load();
 		
