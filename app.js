@@ -79,11 +79,11 @@
 			
 			//Updating Contract Balance
 			const contractBalance = await window.contract.methods.getContractBalance().call();
-			document.querySelector('.contract-bal').innerHTML = 0 /*convertWei(contractBalance)*/ +" " + "<span class=\"unit\"> MATIC</span>";
+			document.querySelector('.contract-bal').innerHTML = convertWei(contractBalance) +" " + "<span class=\"unit\"> SGB</span>";
 			
 			//Updating Investors
 			const totalInvestors = await window.contract.methods.totalUsers().call();
-			document.querySelector('.total-investors').innerHTML = 0; //totalInvestors;
+			document.querySelector('.total-investors').innerHTML = (totalInvestors);  +" " + "<span class=\"unit\"> Players</span>";
 			
 			//Updating Plan Percentages
 			const planPercent0 = 180;//await window.contract.methods.getPercent('0').call();
