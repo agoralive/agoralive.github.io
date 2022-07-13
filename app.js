@@ -1,5 +1,5 @@
 	
-		const CHAIN = 19 ; //Polygon
+		const CHAIN = 19 ; //Songbird
 		
 		load();
 		
