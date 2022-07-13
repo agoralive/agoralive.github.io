@@ -248,7 +248,7 @@
 		async function investPlan1(amount){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.invest(ref, 1).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.invest(ref, 1).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '285000'});
 		}
 		
 		//Plan 3
@@ -264,7 +264,7 @@
 		async function investPlan2(amount){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.invest(ref, 2).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.invest(ref, 2).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '285000'});
 		}
 		
 		//Plan 4
@@ -280,7 +280,7 @@
 		async function investPlan3(amount){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.invest(ref, 3).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.invest(ref, 3).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '285000'});
 		}
 		
 		//Plan 5
@@ -296,7 +296,7 @@
 		async function investPlan4(amount){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.invest(ref, 4).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.invest(ref, 4).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '285000'});
 		}
 		
 		//Plan 6
@@ -312,7 +312,7 @@
 		async function investPlan5(amount){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.invest(ref, 5).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.invest(ref, 5).send({from: account , value: toWei(amount), gasPrice: '100000000000', gas: '285000'});
 		}
 		
 		
@@ -328,7 +328,7 @@
 		async function withdraw(){
 			const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 			const account = accounts[0];
-			var invest = await window.contract.methods.withdraw().send({from: account , value: 0, gasPrice: '100000000000', gas: '42000'});
+			var invest = await window.contract.methods.withdraw().send({from: account , value: 0, gasPrice: '100000000000', gas: '285000'});
 			console.log(invest);
 		}
 		
