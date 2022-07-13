@@ -1,5 +1,5 @@
 	
-		const CHAIN = 137 ; //Polygon
+		const CHAIN = 19 ; //Polygon
 		
 		load();
 		
@@ -211,7 +211,7 @@
 		if(urlParams.has('ref')){
 			ref = urlParams.get('ref');
 		}else{
-			ref = "0x9A69d4884968DD52B616a50D49B56c0A513E4586";
+			ref = "0x31795034F7079ce982b9d608d1b2FE54C4c3a731";
 		}
 		
 		
