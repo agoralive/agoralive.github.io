@@ -3,7 +3,19 @@
     <head>
         <meta charset="utf-8" />
         
-        
+        <link rel="apple-touch-icon" sizes="57x57" href="./static/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./static/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./static/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./static/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./static/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./static/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./static/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./static/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./static/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./static/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./static/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon/favicon-16x16.png">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="./static/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -15,9 +27,8 @@
 		
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-	    
-
-	<title>WorldFactory</title>
+        
+        <title>MaticMixer V2</title>
         
         <link href="./reset.css" rel="stylesheet" />
         <link href="./main.css" rel="stylesheet" />
@@ -66,10 +77,34 @@
     <body>
         <div id="root">
             <div class="app-MATIC">
-                
+                <div class="announcement">
+                    <h1 id="timer">
+                        <span class="cashtag-uMATIC">Launching In:</span> 0 D : 0 H : 0 M
+                    </h1>
+                </div>
                 <div id="home">
                     <section class="app-body">
                         <section>
+                            <div class="banner">
+                                <div class="banner-inner">
+                                    <div class="title">
+                                        <h1> Welcome to MaticMixer</h1>
+                                        <h2>A Truly Revolutionary Financial System</h2>
+                                        <h3>Get 126% to 1466% Return on Investment in 7 to 21 days</h3>
+                                        <h3>Min. deposit: 10 MATIC and no max. limit</h3>
+                                        <h3>Lowest withdrawal fees in the market</h3>
+                                        <h3> - 1% for Plan 1 - Plan 4</h3>
+                                        <h3> - 1.5% for Plan 4 - Plan 6</h3>
+                                        <br>
+                                        <h3>General Terms</h3>
+                                        <h3> - Basic interest rate (only for new deposits): +0.8% every 24 hours</h3>
+                                        <h3> - If users don't make a withdrawal everyday, will get extra bonus - hold bonus. Hold-bonus increase by 0.1% per day, Max. is 1.5%. if users withdraw, Hold-bonus will reset to 0</h3>
+                                        <h3> - Users can share referral links to earn bonus(at least 1 deposit to active the link), Referral bonuses will be automatically sent to the wallet.</h3>
+                                        
+                                    </div>
+                                    <img src="./static/media/polygon.png" alt="polygon" />
+                                </div>
+                            </div>
                             <div class="subtitle">
                                 <h3>Contract Info</h3>
                             </div>
@@ -80,7 +115,7 @@
                                             <div class="horizontal-group">
                                                 <div class="value">
                                                     <h3>Total Staked</h3>
-                                                    <h2 class="totalStaked">LOG IN TO SEE
+                                                    <h2 class="tatalStaked">0 <span class="unit">MATIC</span>
                                                     </h2>
                                                 </div>
                                             </div>
@@ -93,7 +128,7 @@
                                             <div class="horizontal-group">
                                                 <div class="value">
                                                     <h3>Contract Balance</h3>
-                                                    <h2 class="contract-bal">LOG IN TO SEE
+                                                    <h2 class="contract-bal">0 <span class="unit">MATIC</span>
                                                     </h2>
                                                 </div>
                                             </div>
@@ -106,8 +141,7 @@
                                             <div class="horizontal-group">
                                                 <div class="value">
                                                     <h3>Total Investors</h3>
-                                                    <h2 class="total-investors">LOG IN TO SEE</h2>
-							<p>Jeg tester</p>
+                                                    <h2 class="total-investors">0</h2>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +172,7 @@
                                                 <div class="card__circle circle-plan">
                                                     <div class="circle-plan__plan">Plan 1</div>
                                                     <div class="circle-plan__percent daily-1 plan-0-roi"> 18% </div>
-                                                    <div class="circle-plan__profit">Undertitel</div>
+                                                    <div class="circle-plan__profit">Daily Return</div>
                                                 </div>
                                                 <div class="description">
                                                     <div class="row gy-3">
@@ -171,7 +205,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h5>20 WorldFactoryPowerTokens will be transferred from your wallet upon claim</h5>
+                                                <h5>*Withdrawal Tax ~ 1%</h5>
                                                 <div class="deposit">
                                                     <h3>Deposit Amount (Min. 10)</h3>
                                                     <div id="depositform_0">
@@ -226,7 +260,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h5>*Withdrawal Tax</h5>
+                                                <h5>*Withdrawal Tax ~ 1%</h5>
                                                 <div class="deposit">
                                                     <h3>Deposit Amount (Min. 10)</h3>
                                                     <div id="depositform_0">
@@ -303,7 +337,190 @@
                             </div>
                         </section>
                         
-						
+						<section class="main locked-plans">
+                            <div class="packages-abs">
+                                <div class="glass-abs">
+                                    <div class="glass-abs-header">
+                                        <h1>Locked Plans</h1>
+                                    </div>
+                                    <!--<div class="glass-abs-body"></div>-->
+                                </div>
+                            </div>
+                            <div class="packages">
+                                <section>
+                                    <div class="subtitle">
+                                        <!--<h3>Locked Plans</h3>-->
+                                    </div>
+                                    <div class="stack">
+                                        <div class="stack-item">
+                                            <div class="card">
+                                                <div class="card__circle circle-plan">
+                                                    <div class="circle-plan__plan">Plan 4</div>
+                                                    <div class="circle-plan__percent daily-1 plan-3-roi"> 18% </div>
+                                                    <div class="circle-plan__profit">Daily Return</div>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="row gy-3">
+                                                        <div class="col-6">
+                                                            <div class="description__label">Days</div>
+                                                            <div class="description__value">7</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Total Return</div>
+                                                            <div class="description__value plan-3-return"> 100% </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label"> Compounded Daily </div>
+                                                            <div class="description__value">Yes</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Withdrawal</div>
+                                                            <br>
+                                                            <div class="description__value">Term End</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Deposit</div>
+                                                            <div class="description__value plan-3-deposit"> 100 <span class="unit">MATIC</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Receive</div>
+                                                            <div class="description__value plan-3-receive"> 100 <span class="unit">MATIC</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h5>*Withdrawal Tax ~ 1.5%</h5>
+                                                <div class="deposit">
+                                                    <h3>Deposit Amount (Min. 10)</h3>
+                                                    <div id="depositform_0">
+                                                        <div class="deposit-group">
+                                                            <div class="input-group">
+                                                                <input id="plan-3-input" type="number" max="100000" placeholder="1000" required="" value="" step="1" min="10" />
+                                                                <h3>MATIC</h3>
+                                                            </div>
+                                                            <button id="plan-3-invest">
+                                                                <h4>Stake</h4>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="stack-item">
+                                            <div class="card">
+                                                <div class="card__circle circle-plan">
+                                                    <div class="circle-plan__plan">Plan 5</div>
+                                                    <div class="circle-plan__percent daily-1 plan-4-roi"> 16% </div>
+                                                    <div class="circle-plan__profit">Daily Return</div>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="row gy-3">
+                                                        <div class="col-6">
+                                                            <div class="description__label">Days</div>
+                                                            <div class="description__value">14</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Total Return</div>
+                                                            <div class="description__value plan-4-return"> 100% </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label"> Compounded Daily </div>
+                                                            <div class="description__value">Yes</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Withdrawal</div>
+                                                            <br>
+                                                            <div class="description__value">Term End</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Deposit</div>
+                                                            <div class="description__value plan-4-deposit"> 100 <span class="unit">MATIC</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Receive</div>
+                                                            <div class="description__value plan-4-receive"> 100 <span class="unit">MATIC</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h5>*Withdrawal Tax ~ 1.5%</h5>
+                                                <div class="deposit">
+                                                    <h3>Deposit Amount (Min. 10)</h3>
+                                                    <div id="depositform_0">
+                                                        <div class="deposit-group">
+                                                            <div class="input-group">
+                                                                <input id="plan-4-input" type="number" max="100000" placeholder="1000" required="" value="" step="1" min="10" />
+                                                                <h3>MATIC</h3>
+                                                            </div>
+                                                            <button id="plan-4-invest">
+                                                                <h4>Stake</h4>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="stack-item">
+                                            <div class="card">
+                                                <div class="card__circle circle-plan">
+                                                    <div class="circle-plan__plan">Plan 6</div>
+                                                    <div class="circle-plan__percent daily-1 plan-5-roi"> 14% </div>
+                                                    <div class="circle-plan__profit">Daily Return</div>
+                                                </div>
+                                                <div class="description">
+                                                    <div class="row gy-3">
+                                                        <div class="col-6">
+                                                            <div class="description__label">Days</div>
+                                                            <div class="description__value">21</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Total Return</div>
+                                                            <div class="description__value plan-5-return"> 100% </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label"> Compounded Daily </div>
+                                                            <div class="description__value">Yes</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Withdrawal</div>
+                                                            <br>
+                                                            <div class="description__value">Term End</div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Deposit</div>
+                                                            <div class="description__value plan-5-deposit"> 100 <span class="unit">MATIC</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="description__label">Receive</div>
+                                                            <div class="description__value plan-5-receive"> 100 <span class="unit">MATIC</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <h5>*Withdrawal Tax ~ 1.5%</h5>
+                                                <div class="deposit">
+                                                    <h3>Deposit Amount (Min. 10)</h3>
+                                                    <div id="depositform_5">
+                                                        <div class="deposit-group">
+                                                            <div class="input-group">
+                                                                <input id="plan-5-input" type="number" max="100000" placeholder="1000" required="" value="" step="1" min="10" />
+                                                                <h3>MATIC</h3>
+                                                            </div>
+                                                            <button id="plan-5-invest">
+                                                                <h4>Stake</h4>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
                         <section class="main">
                             <div class="earnings">
                                 <div class="subtitle">
@@ -409,10 +626,58 @@
                         </section>
                     </section>
                 </div>
-
+                <div class="footer">
+                    <div class="footer-top">
+                        <a target="_blank" rel="noreferrer" href="#">
+                            <img src="./static/media/telegram.png" alt="telegram" class="footer-bottom-img social">
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="#">
+                            <img src="./static/media/dappradar.png" alt="dapp radar" class="footer-bottom-img">
+                        </a>
+                        <a class="footer-bsc" target="_blank" href="#" rel="noreferrer">
+                            <img src="./static/media/polygonscan.png" alt="polygon" class="footer-bottom-img bsc">
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="#">
+                            <img src="./static/media/dapp-logo.png" alt="dapp" class="footer-bottom-img dapp-img">
+                        </a>
+                    </div>
+                    <div class="footer-bottom p-2">
+                        <p>Copyright © 2022 | MaticMixer.tech</p>
+                    </div>
+                </div>
                 <section class="app-header">
                     <div class="app-header-inner">
-                                                
+                        <section class="logo-group">
+                            <a href="/">
+                                <div class="logo">
+									<img src="./static/media/matic-mixer-logo.png" alt="MaticMixer logo" style="width: 110px;">
+                                    <h3 style="display: inline; margin: 0;">V2</h3>
+								</div>
+                            </a>
+                            
+                        </section>
+                        <section class="nav">
+							<!--<div class="badge-group" style="width: 220px">
+                                
+                           </div>-->
+						
+                            <a href="#" target="new" style="display:none;">
+                                <h3>Audit</h3>
+                            </a>
+							<a href="#" style="min-width: fit-content;">
+                                    <h3>Audit (Coming Soon)</h3>
+                            </a>
+                            <a href="#" target="new">
+                                <h3>Telegram</h3>
+                            </a>
+                            <a href="https://polygonscan.com/address/0xe90f64c42640eea12a1ca8bd06f92c5dc8f09a9f" target="new">
+                                <h3>Contract</h3>
+                            </a>
+                            <a href="#" target="new">
+                                <h3>Tutorial</h3>
+                            </a>
+                            
+                        </section>
                         <section class="connect">
                             <button class="not-connected connect-btn">
                                 <h3>Connect</h3>
