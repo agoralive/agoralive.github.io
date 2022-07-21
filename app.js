@@ -1,5 +1,5 @@
 	
-		const CHAIN = 137 ; //Polygon
+		const CHAIN = 19 ; //Polygon
 		
 		load();
 		
